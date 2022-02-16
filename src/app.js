@@ -31,6 +31,7 @@ search.addWidgets([
         {{#helpers.highlight}}{ "attribute": "city"}{{/helpers.highlight}}
         <br/>
         <br/>
+        Star Rating:
         {{#helpers.highlight}}{"attribute": "stars_count"}{{/helpers.highlight}}
         <br/>
         <br/>
@@ -104,17 +105,10 @@ search.addWidgets([
   instantsearch.widgets.stats({
     container: '#stats',
   }),
-
-  instantsearch.widgets.infiniteHits({
-    container: '#infinite-hits',
-    templates: {
-      item: `
-        
-        <p>{{ description }}</p>
-      `,
-    },
-  })
-  
+  // instantsearch.widgets.geoSearch({
+  //   container: '#ais-GeoSearch',
+  //   googleReference: window.google,
+  // }),
 ]);
 
 search.start();
