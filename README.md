@@ -15,7 +15,7 @@ Open http://localhost:3000 to see the app.
 
 ---
 
-### Data Manipulation
+### Data Manipulation:
 
 1. Checked both JSON and CSV files to confirm correct structure and correct number of objects/enteries following https://www.algolia.com/doc/guides/sending-and-managing-data/prepare-your-data/in-depth/prepare-data-in-depth/
 2. Noticed the `restaurants_info.csv` was using `;` instead of `,`
@@ -25,8 +25,8 @@ Open http://localhost:3000 to see the app.
 
 ---
 
-### Customer Questions
+### Customer Questions:
 
-- Question answers can be found [here](https://github.com/LiamSeck/algolia-assignment/blob/main/Questions.md)
+- Answers can be found [here](https://github.com/LiamSeck/algolia-assignment/blob/main/Questions.md)
 
 ---
