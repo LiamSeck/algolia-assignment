@@ -21,7 +21,7 @@ Open http://localhost:3000 to see the app.
 2. Noticed the `restaurants_info.csv` was using `;` instead of `,`
 3. Carried out a find and replace for `;` to `,`
 4. Then converted `restaurants_info.csv` to JSON using `csvtojson` located [here](https://github.com/LiamSeck/algolia-assignment/tree/main/csvtojson).
-5. I then imported both JSON files into an index using the dashboard: https://www.algolia.com/doc/guides/sending-and-managing-data/send-and-update-your-data/
+5. I then imported both JSON files into an index using the dashboard: https://www.algolia.com/doc/guides/sending-and-managing-data/send-and-update-your-data/how-to/importing-from-the-dashboard/
 
 ---
 
